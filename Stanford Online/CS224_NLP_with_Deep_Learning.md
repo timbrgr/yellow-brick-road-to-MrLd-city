@@ -7,7 +7,7 @@ Youtube: https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe
 
 ### From symbolic to distributed representations
 
-* one hot encoding: $ motel [000100] hotel [010000]^T = $
+* one hot encoding: $ motel [000100] hotel [010000]^T = 0$
   * even though words are very similar (in spelling and in meaning) have no 'similarity'
   * problematic since query and document vectors are orthogonal --> no 'natural' notation of similarity
   
@@ -16,7 +16,7 @@ Youtube: https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe
   > with a loss function of $ J = 1 - p(w_{-t} | w_t) $
   
 ### Skip-gram prediction:
-![skip gram](/Stanford Online/img/CS224/skip_gram.PNG)
+![skip gram](/img/CS224/skip_gram.PNG)
 
 ## Lecture 3: GloVe: Global Vectors for Word Representations
 
