@@ -16,7 +16,7 @@ Youtube: https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe
   > with a loss function of $ J = 1 - p(w_{-t} | w_t) $
   
 ### Skip-gram prediction:
-
+![skip gram](/img/CS224/skip-gram.PNG)
 
 
 ## Lecture 3: GloVe: Global Vectors for Word Representations
