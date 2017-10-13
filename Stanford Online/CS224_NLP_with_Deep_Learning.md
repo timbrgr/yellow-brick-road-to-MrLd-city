@@ -8,7 +8,7 @@ Youtube: https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe
 ### From symbolic to distributed representations
 
 * one hot encoding: $ motel [000100] hotel [010000]^T = 0$
-  * even though words are very similar (in spelling and in meaning) have no 'similarity' :fire:
+  * even though words are very similar (in spelling and in meaning) have no 'similarity' :zap:
   * problematic since query and document vectors are orthogonal --> no 'natural' notation of similarity
   
 * :bulb: **idea** &rightarrow; represent a word by means of its neighbours --> **distributed similarity**
@@ -28,6 +28,16 @@ $$ J(\theta) = - \frac{1}{T} \sum_{t=1}^T \sum_{-m \leq j \leq m; j \neq 0} \log
 
 which is the objective function that we try to *minimize*.
 
+### word2vec
+&rightarrow; predicting surrounding words in radius of $ m $ for $ p( w_{t+j} | w_t)
+
+Using the `soft max` function we can calculate each word's probability 
+
+$$ p (o | c) = \frac{\exp(u_o^T v_c)}{\sum_{w=1}^V \exp(u_w^T v_c} $$
+
+where $ p (o | c) $ is the probability that $ o $ occurs as a *context word* of *center word* $ c $.
+
+:question: &rightarrow; getting the right parameters of $ J (\theta) $ and $ p (o | c) $.
 
 ## Lecture 3: GloVe: Global Vectors for Word Representations
 
