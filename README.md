@@ -100,4 +100,11 @@ Tools:
 Repetition:
 -----------
 
--   Probability Foundations (from Social Computing)
+-   Probability Foundations (material from Social Computing & CS229)
+
+ 
+
+Topics:
+-------
+
+-   Bayesian methods
