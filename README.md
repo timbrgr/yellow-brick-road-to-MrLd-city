@@ -76,7 +76,15 @@ Projects:
 
 -   :exclamation: kaggle: datasets
 
- 
+-   NN from scratch, see:
+
+    -   https://theblog.github.io/category/neural-network/
+
+    -   Grokking Deep Learning
+
+    -   https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/
+
+     
 
 Tools:
 ------
