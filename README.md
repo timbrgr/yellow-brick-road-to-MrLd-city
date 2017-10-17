@@ -18,28 +18,54 @@ DOMAIN)
 
  
 
-\#TODO in ML and Data Science
-=============================
+**\#TODO** in ML and Data Science
+=================================
 
  
 
 Papers:
 -------
 
--   Understanding Deep Learning Requires Rethinking Generalization (Zhang et. al
-    2016); URL: https://arxiv.org/pdf/1611.03530.pdf
+-   :exclamation: Understanding Deep Learning Requires Rethinking Generalization
+    (Zhang et. al 2016); URL: https://arxiv.org/pdf/1611.03530.pdf
 
 -   Sharp Minima Can Generalize For Deep Nets (Dinh et. al 2017); URL:
     https://arxiv.org/abs/1703.04933
 
  
 
+Books:
+------
+
+-   :exclamation: Deep Learning by Ian Goodfellow
+    (http://www.deeplearningbook.org/)
+
+-   Grokking Deap Learning
+    (https://www.manning.com/books/grokking-deep-learning)
+
+ 
+
 Online Courses:
 ---------------
 
--   Stanford: CS224 NLP with Deep Learning
+-   :exclamation: Stanford: CS224 NLP with Deep Learning
+    (https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+
+-   Udacity:
+
+    -   :exclamation: Deep Learning with Google
+        (https://classroom.udacity.com/courses/ud730)
+
+    -   Reinforcement Learning
+        (https://www.udacity.com/course/reinforcement-learning--ud600)
+
+-   Coursera:
+
+    -   Applied Text Mining in Python
+        (https://www.coursera.org/learn/python-text-mining)
 
 -   MITx: Minds and Machines
+    (https://courses.edx.org/courses/course-v1:MITx+24.09x+3T2017)
 
 -   DAT294x: Ethics and Law in Analytics and AI
 
@@ -48,4 +74,22 @@ Online Courses:
 Projects:
 ---------
 
--   kaggle: datasets
+-   :exclamation: kaggle: datasets
+
+ 
+
+Tools:
+------
+
+-   Tensorflow
+
+-   Theano
+
+-   Pytorch
+
+ 
+
+Repetition:
+-----------
+
+-   Probability Foundations (from Social Computing)
