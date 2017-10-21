@@ -32,7 +32,9 @@ Papers:
 -   Sharp Minima Can Generalize For Deep Nets (Dinh et. al 2017); URL:
     https://arxiv.org/abs/1703.04933
 
- 
+ - On the Complexity of Learning Neural Networks (Song, Vempala, Wilmes, Xie 2017); URL: https://arxiv.org/pdf/1707.04615.pdf
+
+- :exclamation: Statistical Query Framework (Feldman 1993); URL: http://researcher.watson.ibm.com/researcher/files/us-vitaly/Kearns93-2017.pdf
 
 Books:
 ------
