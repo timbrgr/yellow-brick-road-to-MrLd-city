@@ -5,9 +5,10 @@ Source: https://developers.google.com/machine-learning/crash-course
 
 ## Linear Regression
 
+
 $ y' = b + w_i b_i $
 
-**Training and Loss**
+### Training and Loss
 
 **Empirical risk minimization**: ML algo builds model by examining many examples and attemps to find a model that minimizes loss. <br>
 **Loss**: penalty for bad prediction -> how bad does model perform on a single example.
