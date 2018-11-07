@@ -3,8 +3,9 @@
 Source: https://developers.google.com/machine-learning/crash-course
 
 
-## Linear Regression
+## Descending into ML
 
+### Linear Regression
 
 $ y' = b + w_i b_i $
 
@@ -22,3 +23,14 @@ $ L_2Loss = \sum_{(x,y) \in D} (y - prediction(x))^2 $
 **Mean Squared Error (MSE)**: $$ MSE = \frac{1}{N} \sum_{(x,y) \in D} (y - prediction(x))^2 $$
 
 !!! Although MSE is commonly-used in machine learning, it is neither the only practical loss function nor the best loss function for all circumstances. !!!
+
+## Gradient Descent
+
+**batch**: # examples in **one** iteration <br>
+**Stochastic GD (SGD)**: only **one single example** per iteration (chosen randomly) <br>
++ simple <br>
+- noisy
+
+**Mini-batch stochastic gradient descent (mini-batch SGD)**: compromise between full-batch iteration and SGD, typically between 10 and 1,000 examples (chosen at random). <br>
++ reduce noise <br>
++ less computational load
