@@ -80,7 +80,7 @@ No explicit assumptions about the functional form of $ f $, which make it possib
 
 $$ MSE_{training} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{f}(x_i))^2 $$ --> which is based on the training data, but we are interested in **how model performs on unseen data**. Since when continuing to fit the model on training data, we will **overfit** at some point as seen in the graph below. Training error decreases, where at a certain point the **test error increases**. This is the **generalization gap**, where the model overfits and does not generalize well anymore.
 
-![training-vs-test](img\training-vs-test.PNG)
+![training-vs-test](/img/training-vs-test.PNG)
 
 ## The Bias-Variance Trade-Off
 
@@ -102,7 +102,7 @@ $$ E(MSE_{test}) = E(y_0 - \hat{f}(x_0))^2 = Var(\hat{f}(x_0)) + [Bias(\hat{f}(x
 
 **Bias** $ [Bias(\hat{f}(x_0))]^2 $: Is the error that is introduced by approximating a real-life problem with a much simpler method. Generally: more flexible methods result in less bias.
 
-![trade-off-bias-variance](img\trade-off-bias-variance.PNG)
+![trade-off-bias-variance](/img/trade-off-bias-variance.PNG)
 
 
 
