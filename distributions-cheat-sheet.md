@@ -3,20 +3,19 @@
 The following notes are based on the blog post **"Common Probability Distributions: The Data Scientist’s Crib Sheet"** by **Sean Owen** (@sean_r_owen) on the **cloudera engineering blog**.
 
 Reference:
-
 https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/
 
 
 
 # Common Distributions Network (as PDF)
 
-![distributions](C:\Users\tberger\yellow-brick-road-to-MrLd-city\img\distributions.png)
+![distributions](/img/distributions.png)
 
 
 
 ## Bernoulli & Uniform [discrete]
 
-![bernoulli_uniform](C:\Users\tberger\yellow-brick-road-to-MrLd-city\img\bernoulli_uniform.PNG)
+![bernoulli_uniform](/img/bernoulli_uniform.PNG)
 
 **Bernoulli**:
 
@@ -33,7 +32,7 @@ https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data
 
 ## Binomial & Hypergeometric [discrete]
 
-![binomial_hypergeometric](C:\Users\tberger\yellow-brick-road-to-MrLd-city\img\binomial_hypergeometric.PNG)
+![binomial_hypergeometric](/img/binomial_hypergeometric.PNG)
 
 
 
@@ -56,7 +55,7 @@ https://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data
 
 ## Poisson [discrete]
 
-![poisson](C:\Users\tberger\yellow-brick-road-to-MrLd-city\img\poisson.PNG)
+![poisson](/img/poisson.PNG)
 
 * **count events over a time given the continuous rate of events occurring** --> heading towards  infinitesimally small time slices in which the probability of a event is infinitesimal --> limit results in Poisson
 * $ \lambda $ - average rate, **NOT** by $ n $ and $ p $ (in simple analogy $ \lambda = np $)
